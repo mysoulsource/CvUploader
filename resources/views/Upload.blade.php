@@ -73,7 +73,7 @@
                         @endif
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" placeholder="Email" name="email">
+                        <input type="email" class="form-control" placeholder="Email" name="email">
                         @if ($errors->has('email'))
                             <span class="invalid-feedback">
                                         <strong>{{ $errors->first('email') }}</strong>
